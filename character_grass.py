@@ -8,7 +8,7 @@ boy = load_image('character.png')
 def draw_boy(x,y):
     clear_canvas_now()
     boy.draw_now(x,y)
-    delay(0.05)
+    delay(0.03)
 
 def run_Circle():
     print('Circle')
@@ -77,9 +77,8 @@ def run_Triangle():
     pass
 
 while True:
-    #run_Circle()
-    #run_Rect()
+    run_Circle()
+    run_Rect()
     run_Triangle()
-    break
-
+    
 close_canvas()
