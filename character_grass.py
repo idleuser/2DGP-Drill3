@@ -27,24 +27,28 @@ def run_Circle():
 
 def run_top():
     print('TOP')
-    for x in range(0,800,10):
+    for x in range(0,790,15):
         draw_boy(x,550)
     pass
 def run_right():
     print('RIGHT')
-    for y in range(550,0,-10):
+    for y in range(550,30,-15):
         draw_boy(780,y)
     pass
 def run_bottom():
+    for x in range(790,0,-15):
+        draw_boy(x,30)
     print('BOTTOM')
     pass
 def run_left():
+    for y in range(30,550,15):
+        draw_boy(10,y)
     print('LEFT')
     pass
 def run_Rect():
     print("Rect")
 
-    #run_top()
+    run_top()
     run_right()
     run_bottom()
     run_left()
