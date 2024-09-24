@@ -22,7 +22,6 @@ def run_Circle():
         y = r*math.sin(theta) + cy
         
         draw_boy(x,y)
-    
     pass
 
 def run_top():
@@ -52,12 +51,26 @@ def run_Rect():
     run_right()
     run_bottom()
     run_left()
-    
+    pass
+
+def run_left_side():
+    print("left_side")
+    pass
+def run_right_side():
+    print("right_side")
+    pass
+
+def run_Triangle():
+    print("Triangle")
+    run_bottom()
+    run_left_side()
+    run_right_side()
     pass
 
 while True:
     #run_Circle()
-    run_Rect()
+    #run_Rect()
+    run_Triangle()
     break
 
 close_canvas()
