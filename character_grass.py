@@ -28,7 +28,7 @@ def run_Circle():
 def run_top():
     print('TOP')
     for x in range(0,790,15):
-        draw_boy(x,550)
+        draw_boy(x,570)
     pass
 def run_right():
     print('RIGHT')
@@ -41,7 +41,7 @@ def run_bottom():
     print('BOTTOM')
     pass
 def run_left():
-    for y in range(30,550,15):
+    for y in range(30,570,15):
         draw_boy(10,y)
     print('LEFT')
     pass
