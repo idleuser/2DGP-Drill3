@@ -58,11 +58,15 @@ def run_left_side():
     x = 0
     for y in range(30,550,10):
         draw_boy(x,y)
-        x += 7
+        x += 7.5
     
     pass
 def run_right_side():
     print("right_side")
+    x = 390
+    for y in range(550,30,-10):
+        draw_boy(x,y)
+        x += 7.5
     pass
 
 def run_Triangle():
